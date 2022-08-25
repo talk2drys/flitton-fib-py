@@ -24,4 +24,7 @@ setup(
             ],
         python_requires='>=-3',
         test_requires=["pytest"],
+        entry_points = {
+            'console_scripts': ['fib-number = flitton_fib_py.cmd.fib_num:fib_numb'],
+            },
         )
